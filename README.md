@@ -1,6 +1,7 @@
 # ollama_map_apis
 Assessing the exposed Ollama Server APIs. A basic automated script(tool) to be used for security testing of Ollama APIs
 
+```python
 % python3 ollama_map_apis_v1.0.py
 --== [ Enumerating Cofnigured LLMs on the Ollama Server ] ==--
 
@@ -104,4 +105,6 @@ Response: {
       }
     }
   ]
+
+```
 }
